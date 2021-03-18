@@ -1,20 +1,31 @@
 {
-  "name": "express-workshop",
+  "name": "express-workshop-2020-1",
   "version": "1.0.0",
-  "description": "An API REST using express.js",
+  "description": "this is a project for the node.js workshop",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jluis-lira/express-workshop-2020-1.git"
+  },
   "keywords": [
-    "api",
-    "rest",
+    "node",
     "express",
-    "nodejs"
+    "jwt",
+    "mysql"
   ],
   "author": "JLuis LG",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jluis-lira/express-workshop-2020-1/issues"
+  },
+  "homepage": "https://github.com/jluis-lira/express-workshop-2020-1#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "save": "^2.4.0"
   }
 }
